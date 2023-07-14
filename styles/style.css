@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10%;
+    gap: 100px;
+}
+
+img{
+    width: 40vw;
+}
+.btn-perimery{
+    color: #FFF;
+font-family: Space Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.49px;
+text-transform: uppercase;
+width: 200px;
+height: 60px;
+flex-shrink: 0;
+background: var(--gray-1, #333);
+
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+}
+.clear{
+    padding: 20px;
+    margin: 10px;
+}
+.description > p{
+    color: var(--gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+.description > h1{
+        color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
